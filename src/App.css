@@ -1,0 +1,359 @@
+body{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-color: rgba(230, 243, 255, 0.75);
+}
+
+.img{
+    size: 100px;
+    width: 419px;
+    height: 613px;
+    left: 47px;
+    top: 190px;
+    position: absolute;
+    z-index: 1;
+    /* background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); */
+}
+
+.main{
+    width: 845px;
+    height: 1024px;
+    left: 595px;
+    top: 0px;
+    position: absolute;
+}
+
+.main--uno{
+    width: 845px;
+    height: 1024px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    background: #FCFEFF;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main--dos{
+    width: 600px;
+    height: 856px;
+    left: 123px;
+    top: 124px;
+    position: absolute;
+}
+
+.git{
+    width: 220px;
+    height: 55px;
+    left: 332px;
+    top: 694px;
+    position: absolute;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px #7C838A solid;
+}
+
+.git--img{
+    width: 50px;
+    height: 50px;
+    left: 10px;
+    top: 3px;
+    position: absolute;
+}
+
+.git--text{
+    width: 138px;
+    height: 21px;
+    left: 66px;
+    top: 17px;
+    position: absolute;
+    color: #7C838A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.git--border{
+    width: 220px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+}
+
+.google{
+    width: 220px;
+    height: 55px;
+    left: 31px;
+    top: 694px;
+    position: absolute;
+
+    
+    position: absolute;
+    border-radius: 15px;
+    border: 1px #7C838A solid;
+}
+
+.google--img{
+    width: 50px;
+    height: 50px;
+    left: 7px;
+    top: 3px;
+    position: absolute;
+}
+
+.google--text{
+    width: 141px;
+    height: 21px;
+    left: 66px;
+    top: 17px;
+    position: absolute;
+    color: #7C838A;
+    font-size: 14px;
+    font-family: Poppins;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.google--border{
+    width: 220px;
+    height: 55px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    border-radius: 15px;
+    border: 1px #7C838A solid;
+}
+
+.or{
+    left: 251px; 
+    top: 640px; 
+    position: absolute; 
+    color: #B0BAC3; 
+    font-size: 26px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.have_account{
+    left: 2px; 
+    top: 572px; 
+    position: absolute;
+}
+
+.have--span{
+    color: #7C838A; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.span--1{
+    color: black; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.login--text{
+    color: #F9ED32; 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.create--container{
+    width: 340px; 
+    height: 60px; 
+    left: 121px; 
+    top: 497px; 
+    position: absolute;
+    position: absolute; 
+    background: #F9ED32; 
+    border-radius: 10px;
+}
+
+.create--boton{
+    width: 340px;
+    height: 60px; 
+    left: 0px; 
+    top: 0px; 
+}
+
+.createAccount{
+    width: 215px; 
+    left: 70px; 
+    top: 10px; 
+    position: absolute; 
+    color: black; 
+    font-size: 26px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.pass--container{
+    width: 600px; 
+    height: 95px; 
+    left: 0px; 
+    top: 362px; 
+    position: absolute;
+}
+
+.pass--text{
+    left: 2px; 
+    top: 0px; 
+    position: absolute; 
+    color: #7C838A; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.pass--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute;
+}
+
+.enter--pass--input::placeholder{
+    left: 40px; 
+    top: 17px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.50); 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.enter--pass--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(176, 186, 195, 0.40); 
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.email--container{
+    width: 600px; 
+    height: 95px; 
+    left: 0px; 
+    top: 227px; 
+    position: absolute;
+}
+
+.email--text{
+    left: 2px; 
+    top: 0px; 
+    position: absolute; 
+    color: #7C838A; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.email--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute;
+}
+
+.enter--email--input::placeholder{
+    left: 40px; 
+    top: 17px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.50); 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.enter--email--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(176, 186, 195, 0.40); 
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.name--container{
+    width: 600px; 
+    height: 95px; 
+    left: 0px; 
+    top: 91px; 
+    position: absolute;
+}
+
+.name--text{
+    left: 2px;
+    top: 0px; 
+    position: absolute; 
+    color: #7C838A; 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 500; 
+    word-wrap: break-word;
+}
+
+.name--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 30px; 
+    position: absolute;
+}
+
+.enter--name--input::placeholder{
+    left: 40px; 
+    top: 17px; 
+    position: absolute; 
+    color: rgba(0, 0, 0, 0.50); 
+    font-size: 20px; 
+    font-family: Poppins; 
+    font-weight: 400; 
+    word-wrap: break-word;
+}
+
+.enter--name--input{
+    width: 600px; 
+    height: 65px; 
+    left: 0px; 
+    top: 0px; 
+    position: absolute; 
+    background: rgba(176, 186, 195, 0.40); 
+    border-radius: 20px;
+    font-size: 30px;
+    text-align: center; 
+}
+
+.create--account{
+    left: 131px; 
+    top: 0px; 
+    position: absolute; 
+    color: black; 
+    font-size: 26px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    word-wrap: break-word;
+}
